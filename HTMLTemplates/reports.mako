@@ -102,4 +102,4 @@ WHERE (start BETWEEN '2018-07-01' AND '2018-07-10');
 </FORM>
 
 <hr/>
-To add feature requests or report issues, please go to:<A HREF="https://github.com/alan412/CheckMeIn/issues">https://github.com/alan412/CheckMeIn/issues</A>
+To add feature requests or report issues, please go to:<A HREF="https://github.com/innovationtreehouse/CheckMeIn/issues">https://github.com/innovationtreehouse/CheckMeIn/issues</A>

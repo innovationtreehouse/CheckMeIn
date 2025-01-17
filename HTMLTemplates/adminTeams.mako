@@ -146,7 +146,7 @@ ${self.logo()}
 	</fieldset>
 	%endif
 <hr/>
-To add feature requests or report issues, please go to:<A HREF="https://github.com/alan412/CheckMeIn/issues">https://github.com/alan412/CheckMeIn/issues</A>
+To add feature requests or report issues, please go to:<A HREF="https://github.com/innovationtreehouse/CheckMeIn/issues">https://github.com/innovationtreehouse/CheckMeIn/issues</A>
 
 <div id="editTeamDialog" title="Edit Team info" style="display:none;">
 <H2 id="teamDialogName"></H2>
