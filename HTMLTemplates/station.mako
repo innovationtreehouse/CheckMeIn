@@ -29,7 +29,7 @@ ${self.logo()}<br/>
 </div>
 </TD>
 <TD WIDTH="60%">
-     <CENTER><H1>Welcome to TFI Headquarters</H1>
+     <CENTER><H1>Innovation Treehouse</H1>
      <H2><div id="clockbox"></div></H2>
 </TD>
 <TD style="width:30%" valign="top">
