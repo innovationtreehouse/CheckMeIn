@@ -70,10 +70,10 @@ class Members(object):
     def bulkAdd(self, dbConnection, csvFile):
         numMembers = 0
         for row in csv.DictReader(codecs.iterdecode(csvFile.file, 'utf-8')):
-            displayName = row['Display Name for Button']
+            displayName = row['Display Name for Nametag']
             if not displayName:
                 displayName = row['First Name'] + ' ' + row['Last Name'][0]
-            barcode = row['Barcode for Button']
+            barcode = row['Barcode for Nametag']
             if not barcode:
                 barcode = row['Barcode AUTONUM']
             try:
