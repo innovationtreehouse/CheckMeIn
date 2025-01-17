@@ -88,13 +88,13 @@ class Certifications(object):
         tools = [[1, 1, "Hand Tools | Press | Vise"],
                  [2, 1, "Soldering Iron | Heat Gun"],
                  [3, 2, "Drill Press"],
-                 [3, 2, "Handheld Drill"],
-                 [4, 3, "Horizontal Band Saw"],
-                 [5, 3, "Circular Saw"],
-                 [6, 3, "Chop Saw"],
-                 [7, 3, "Jig Saw"],
-                 [8, 4, "Air Tools"],
-                 [9, 5, "3D Printer"],
+                 [4, 2, "Handheld Drill"],
+                 [5, 3, "Horizontal Band Saw"],
+                 [6, 3, "Circular Saw"],
+                 [7, 3, "Chop Saw"],
+                 [8, 3, "Jig Saw"],
+                 [9, 4, "Air Tools"],
+                 [10, 5, "3D Printer"],
                  ]
         for tool in tools:
             if tool[2] == "Power Miter Saw" or tool[
