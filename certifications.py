@@ -85,15 +85,17 @@ class Certifications(object):
                              (tool_id, grouping, name, restriction, comments))
 
     def addTools(self, dbConnection):  # pragma: no cover
-        tools = [[1, 1, "Sheet Metal Brake"], [2, 1, "Blind Rivet Gun"],
-                 [3, 1, "Stretcher Shrinker"], [4, 1, "3D printers"],
-                 [5, 2, "Power Hand Drill"], [6, 2, "Solder Iron"],
-                 [7, 2, "Dremel"], [8, 3, "Horizontal Band Saw"],
-                 [9, 3, "Drill Press"], [10, 3, "Grinder / Sander"],
-                 [11, 4, "Scroll Saw"], [12, 4, "Table Mounted Jig Saw"],
-                 [13, 4, "Vertical Band Saw"], [14, 4, "Jig Saw"],
-                 [15, 5, "CNC router"], [16, 5, "Metal Lathe"],
-                 [17, 5, "Table Saw"], [18, 5, "Power Miter Saw"]]
+        tools = [[1, 1, "Hand Tools | Press | Vise"],
+                 [2, 1, "Soldering Iron | Heat Gun"],
+                 [3, 2, "Drill Press"],
+                 [3, 2, "Handheld Drill"],
+                 [4, 3, "Horizontal Band Saw"],
+                 [5, 3, "Circular Saw"],
+                 [6, 3, "Chop Saw"],
+                 [7, 3, "Jig Saw"],
+                 [8, 4, "Air Tools"],
+                 [9, 5, "3D Printer"],
+                 ]
         for tool in tools:
             if tool[2] == "Power Miter Saw" or tool[
                     2] == "Table Saw":  # Over 18 only tools
