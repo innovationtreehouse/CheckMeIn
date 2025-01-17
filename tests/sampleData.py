@@ -86,7 +86,7 @@ def testData():
         }],
         "teams": [{
             "team_id": 1,
-            "program_name": "TFI",
+            "program_name": "Treehouse",
             "program_number": 100,
             "team_name": "Crazy Contraptions",
             "start_date": datetime.datetime(year=2021, month=5, day=1),
@@ -98,7 +98,7 @@ def testData():
         },
             {
             "team_id": 2,
-            "program_name": "TFI",
+            "program_name": "Treehouse",
             "program_number": 100,
             "team_name": "Crazy Contraptions",
             "start_date": datetime.datetime(year=2020, month=5, day=1),
@@ -110,7 +110,7 @@ def testData():
         },
             {
             "team_id": 3,
-            "program_name": "TFI",
+            "program_name": "Treehouse",
             "program_number": 400,
             "team_name": "Inactive team",
             "start_date": datetime.datetime(year=2020, month=5, day=1),

@@ -2,8 +2,8 @@ from email.mime.text import MIMEText
 import email.utils
 import smtplib
 
-FROM_EMAIL = "tfi@checkmein.site"
-FROM_NAME = "TFI CheckMeIn"
+FROM_EMAIL = "treehouse@checkmein.site"
+FROM_NAME = "Innovation Treehouse CheckMeIn"
 
 
 def sendEmail(toName, toEmail, subject, message, ccName="", ccEmail=""):

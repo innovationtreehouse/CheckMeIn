@@ -111,7 +111,7 @@ class Accounts(object):
             (user, hashedPassword, barcode, role.getValue()))
         emailAddress = self.getEmail(dbConnection, user)
 
-        utils.sendEmail('TFI Ops', 'tfi-ops@googlegroups.com', 'New User',
+        utils.sendEmail('Treehouse Ops', 'ops@innovationtreehouse.org', 'New User',
                         f'User {user} <{emailAddress}> added with roles : {role}')
 
     def getBarcode(self, dbConnection, user, password):
@@ -173,12 +173,12 @@ class Accounts(object):
         safe_username = urllib.parse.quote_plus(username)
         print(safe_username, token)
 
-        msg = "Please go to http://tfi.checkmein.site/profile/resetPasswordToken?user=" + \
+        msg = "Please go to http://treehouse.checkmein.site/profile/resetPasswordToken?user=" + \
             safe_username + "&token=" + token + " to reset your password.  If you" + \
             " did not request that you had forgotten " + \
             "your password, then you can safely ignore this e-mail." + \
             "Your username is " + safe_username + "." + \
-            " This expires in 24 hours.\n\nThank you,\nTFI"
+            " This expires in 24 hours.\n\nThank you,\nInnovation Treehouse"
 
         utils.sendEmail(username, emailAddress, 'Forgotten Password', msg)
 
@@ -236,7 +236,7 @@ class Accounts(object):
             (barcode, )).fetchone()
         if data:
             emailAddress = self.getEmail(dbConnection, data[0])
-            utils.sendEmail('TFI Ops', 'tfi-ops@googlegroups.com', 'Role change for user',
+            utils.sendEmail('Treehouse Ops', 'ops@innovationtreehouse.org', 'Role change for user',
                             f'User {data[0]} <{emailAddress}> roles changed to : {newRole}')
 
     def removeUser(self, dbConnection, barcode):
