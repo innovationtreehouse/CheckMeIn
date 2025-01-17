@@ -37,9 +37,7 @@ ${self.logo()}<br/>
    </fieldset><br/>
    <fieldset><legend>General</legend>
    <UL>
-      <LI><A HREF="/whoishere">See who is at BFF</A>
-      <LI><A HREF="https://calendar.google.com/calendar/embed?src=h75eigkfjvngvpff1dq0af74mk%40group.calendar.google.com&ctz=America%2FNew_York">TFI Calendar</A>
-      <LI><A HREF="https://app.theforgeinitiative.org/">Forge Member App</A>
+      <LI><A HREF="/whoishere">See who is at Innovation Treehouse</A>
    </UL>
    </fieldset><br/>
 

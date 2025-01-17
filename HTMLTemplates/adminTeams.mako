@@ -61,7 +61,7 @@ ${self.logo()}
     <form action="addTeam">
        <table>
 	   <TR><TD>Program Type</TD><TD><select name="programName" id="programName">
-	      <option value="TFI">Non-FIRST Teams</option>
+	      <option value="Treehouse">Non-FIRST Teams</option>
 		  <option value="FLL-DISCOVERY">FIRST Lego League Discovery</option>
 		  <option value="FLL-EXPLORE">FIRST Lego League Explore</option>
 		  <option value="FLL-CHALLENGE" selected>FIRST Lego League Challenge</option>
@@ -153,7 +153,7 @@ To add feature requests or report issues, please go to:<A HREF="https://github.c
 <P>To change team name, coaches or member info click on the link in list of teams</P>
 <TABLE>
 	   <TR><TD>Program Type</TD><TD><select name="programName" id="dlgProgramName">
-	      <option value="TFI">Non-FIRST Teams</option>
+	      <option value="Treehouse">Non-FIRST Teams</option>
 		  <option value="FLL-DISCOVERY">FIRST Lego League Discovery</option>
 		  <option value="FLL-EXPLORE">FIRST Lego League Explore</option>
 		  <option value="FLL-CHALLENGE" selected>FIRST Lego League Challenge</option>

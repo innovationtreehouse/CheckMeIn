@@ -46,7 +46,7 @@ class WebGuestStation(WebBase):
 
         if comments:
             (error, email) = self.engine.guests.getEmail(dbConnection, guest_id)
-            utils.sendEmail('TFI Ops', 'tfi-ops@googlegroups.com', 'Comments from ' + name,
+            utils.sendEmail('Treehouse Ops', 'ops@innovationtreehouse.org', 'Comments from ' + name,
                             'Comments left:\n' + comments, name, email)
 
         return self.showGuestPage('Goodbye ' + name + ' We hope to see you again soon!')

@@ -70,12 +70,12 @@ class Members(object):
     def bulkAdd(self, dbConnection, csvFile):
         numMembers = 0
         for row in csv.DictReader(codecs.iterdecode(csvFile.file, 'utf-8')):
-            displayName = row['TFI Display Name for Button']
+            displayName = row['Display Name for Nametag']
             if not displayName:
                 displayName = row['First Name'] + ' ' + row['Last Name'][0]
-            barcode = row['TFI Barcode for Button']
+            barcode = row['Barcode for Nametag']
             if not barcode:
-                barcode = row['TFI Barcode AUTONUM']
+                barcode = row['Barcode AUTONUM']
             try:
                 email = row['Email']
             except KeyError:
